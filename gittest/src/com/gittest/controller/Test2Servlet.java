@@ -28,6 +28,8 @@ public class Test2Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		//내가 수정한것
+		System.out.println("하하 내가 수정한거 반영해보자.");
 	}
 
 	/**
