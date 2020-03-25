@@ -29,7 +29,9 @@ public class Test2Servlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		//내가 수정한것
-		System.out.println("하하 내가 수정한거 반영해보자.");
+		if(true) {
+			System.out.println("내가 수정한 내용!");
+		}
 	}
 
 	/**
