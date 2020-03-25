@@ -27,14 +27,26 @@ public class Test2Servlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		//내가 수정한것
 		int age=19;
 		switch(age) {
 		case 19 : System.out.println("내가 수정한 내용1");break;
 		case 20 : System.out.println("내가 수정한 내용2");break;
-			
 		}
+		if(true) {
+
+			System.out.println("하하하하");
+			System.out.println("키키키키");
+			System.out.println("호호호호");
+			System.out.println("호호호호");
+
+
+			}
+		System.out.println("충돌!!!!!!!!");
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
 	}
 
 	/**
