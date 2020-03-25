@@ -38,10 +38,10 @@ public class Test2Servlet extends HttpServlet {
 		if(true) {
 
 			System.out.println("하하하하");
-			System.out.println("키키키키");
+			System.out.println("수정수정수정");
 			System.out.println("호호호호");
 			System.out.println("호호호호");
-			System.out.println("수정함");
+			System.out.println("수정새로");
 
 
 			}
