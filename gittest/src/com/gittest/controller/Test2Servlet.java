@@ -41,6 +41,7 @@ public class Test2Servlet extends HttpServlet {
 			System.out.println("키키키키");
 			System.out.println("호호호호");
 			System.out.println("호호호호");
+			System.out.println("수정함");
 
 
 			}
