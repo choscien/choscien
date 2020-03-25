@@ -28,7 +28,8 @@ public class Test2Servlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		if(true) {
-			System.out.println("충돌충돌");
+			System.out.println("하하하하");
+			System.out.println("키키키키");
 		}
 		System.out.println("충돌!!!!!!!!");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
